@@ -1,6 +1,6 @@
 export MLFLOW_S3_ENDPOINT_URL=https://storage.yandexcloud.net
 export AWS_ACCESS_KEY_ID=YCAJE3Nlz8iDILW5VTYM1ihQB
-export AWS_SECRET_ACCESS_KEY=YCPjvS7uwhvJpUj3bKm8X-IX4QAwBIVsvX61IL44
+export AWS_SECRET_ACCESS_KEY=
 export AWS_BUCKET_NAME=s3-student-mle-20250529-05fed48463
 
 mlflow server \
