@@ -1,0 +1,3 @@
+name: T2I Generator
+
+python_env: t2i_env.yaml 
