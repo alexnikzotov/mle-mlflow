@@ -1,0 +1,8 @@
+time_created: 2018-05-25T17:28:53.35
+
+flavors:
+    sklearn:
+        sklearn_version: 0.19.1
+        pickled_model: model.pkl
+    python_function:
+        loader_module: mlflow.sklearn 

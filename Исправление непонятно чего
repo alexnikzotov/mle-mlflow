@@ -6,8 +6,8 @@ entry_points:
   get_text:
     parameters:
       db_name: "playground_mle_20250529_05fed48463"
-      login: "mle_20250529_05fed48463"
-      password: "0c567edd8ad8472e87d5c85cc4d664e4"
+      login: "mle_2025052"
+      password: "0c567edd8ad8"
     command: "python3 get_text.py --db_name {db_name} --login {login} --password {password}"
   inference_model:
     parameters:
@@ -16,6 +16,7 @@ entry_points:
   put_image:
     parameters:
       bucket_name: "s3-student-mle-20250529-05fed48463"
-      bucket_key_id: "YCAJE3Nlz8iDILW5VTYM1ihQB"
-      bucket_key_value: "YCPjvS7uwhvJpUj3bKm8X-IX4QAwBIVsvX61IL44"
-    command: "python3 put_image.py --bucket_name {bucket_name} --bucket_key_id {bucket_key_id} --bucket_key_value {bucket_key_value}" 
+      bucket_key_id: "YCAJE3Nlz"
+      bucket_key_value: "YCPjvS7uwhvJpU"
+    command: "python3 put_image.py --bucket_name {bucket_name} --bucket_key_id {bucket_key_id} --bucket_key_value {bucket_key_value}"
+ 
