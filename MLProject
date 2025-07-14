@@ -1,3 +1,21 @@
 name: T2I Generator
 
-python_env: t2i_env.yaml 
+python_env: t2i_env.yaml
+
+entry_points:
+  get_text:
+    parameters:
+      db_name: "playground_mle_20250529_05fed48463"
+            login: "mle_20250529_05fed48463"
+            password: "0c567edd8ad8472e87d5c85cc4d664e4"
+    command: "python3 get_text.py --db_name {db_name} --login {login} --password {password}"
+  inference_model:
+    parameters:
+      t2i_model_name: "T2I Generator"
+    command: "python3 inference_model.py --t2i_model_name {t2i_model_name}"
+  put_image:
+        parameters:
+          bucket_name: "s3-student-mle-20250529-05fed48463"
+          bucket_key_id: "YCAJE3Nlz8iDILW5VTYM1ihQB"
+          bucket_key_value: "YCPjvS7uwhvJpUj3bKm8X-IX4QAwBIVsvX61IL44"
+        command: "python3 put_image.py --bucket_name {bucket_name} --bucket_key_id {bucket_key_id} --bucket_key_value {bucket_key_value}" 
