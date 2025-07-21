@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/854210265449262032/460b2e8695bc47d9a6a939125e930028/artifacts
+end_time: 1753107408195
+entry_point_name: ''
+experiment_id: '854210265449262032'
+lifecycle_stage: active
+run_id: 460b2e8695bc47d9a6a939125e930028
+run_name: sign_selection_intersection_and_union
+run_uuid: 460b2e8695bc47d9a6a939125e930028
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753107408135
+status: 3
+tags: []
+user_id: mle-user
