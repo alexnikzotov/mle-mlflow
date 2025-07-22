@@ -1,0 +1,6 @@
+artifact_location: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/859363829228388577
+creation_time: 1753182981915
+experiment_id: '859363829228388577'
+last_update_time: 1753182981915
+lifecycle_stage: active
+name: model_grid_search
