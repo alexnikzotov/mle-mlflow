@@ -1,0 +1,6 @@
+artifact_location: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/279950860312730532
+creation_time: 1753211332535
+experiment_id: '279950860312730532'
+last_update_time: 1753211332535
+lifecycle_stage: active
+name: model_bayesian_search
